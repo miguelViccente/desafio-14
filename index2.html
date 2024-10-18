@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"
+    <title>Formulário</title>
+</head>
+<body>
+
+    <h2>Cadastro</h2>
+
+    <form action="/submit" method="post">
+    <label for="nome">Nome</label>
+    <input type="text" id="home" name="nome" placeholder="Digite seu nome" required><br>
+    <br>
+
+
+    <label for="email">Email</label>
+    <input type="text" id="home" name="email" placeholder="Digite seu email" required><br>
+    <br>
+
+    <label for="senha">Senha</label>
+    <input type="password" id="home" name="senha" placeholder="Digite sua senha" required><br>
+    <br>
+
+    <label for="genero">Gênero</label><br>
+    <input type="radio" id="masculino" name="genero" value="masculino" required>
+    <label for="masculino">Masculino</label><br>
+    <input type="radio" id="feminino" name="genero" value="feminino" required>
+    <label for="feminino">Feminino</label><br>
+    <br>
+
+    <label>Quer receber notificações</label><br>
+    <label for="notificacoes">Sim</label>
+    <input type="checkbox" id="home" name="notificacoes">
+    <br>
+    <label for="notificacoes">Não</label>
+    <input type="checkbox" id="home" name="notificacoes">
+    <br>
+
+    <label for="cidade">Cidade</label><br>
+    <select id="cidade" name="Cidade"><br>
+        <option value="Bauru">Bauru</option>
+        <option value="Piratininga">Piratininga</option>
+        <option value="Duartina">Duartina</option>
+        <option value="Agudos">Agudos</option>
+        <option value="Marília">Marília</option>
+    </select>
+    <br>
+
+    <button>Enviar</button>
+
+     </form>
+
+</body>
+</html>
